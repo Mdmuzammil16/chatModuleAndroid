@@ -48,6 +48,10 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
+
+                groupId = 'com.github.Mdmuzammil16'
+                 artifactId = 'chat-module-demo'
+                 version = '1.0'
             }
         }
     }
